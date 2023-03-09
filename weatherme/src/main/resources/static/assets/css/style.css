@@ -1,0 +1,114 @@
+:root {
+  --light: #ececec;
+  --teal: #9fd3c7;
+  --blue: #3264a1;
+  --ocean: #142d4c;
+}
+body {
+  transition: all 1s;
+}
+.oh {
+  overflow: hidden !important;
+}
+.hidden {
+  display: none !important;
+}
+body {
+  background-color: var(--ocean) !important;
+}
+a {
+  text-decoration: none !important;
+}
+@media (max-width: 500px) {
+  h1 {
+    color: var(--teal) !important;
+    font-family: Poppins !important;
+    font-weight: 800 !important;
+    font-size: 50px !important;
+  }
+}
+@media (min-width: 501px) {
+  h1 {
+    color: var(--teal) !important;
+    font-family: Poppins !important;
+    font-weight: 800 !important;
+    font-size: 80px !important;
+  }
+}
+h2 {
+  color: var(--teal) !important;
+  font-family: Poppins !important;
+  font-weight: 600 !important;
+  font-size: 30px !important;
+}
+p {
+  color: var(--teal) !important;
+  font-family: Poppins !important;
+  font-weight: 400 !important;
+  font-size: 40px !important;
+}
+.weather-box {
+  background-color: var(--blue);
+  height: fit-content;
+  width: fit-content;
+  border-radius: 18px;
+}
+.fa-sharp {
+  color: var(--teal) !important;
+  font-size: 18px !important;
+}
+
+.btn.search :hover {
+  color: #142d4c !important;
+}
+.fa-question {
+  color: var(--teal) !important;
+  font-size: 18px !important;
+}
+.btn.btn-secondary.tool {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+.fa-question:hover {
+  color: #142d4c !important;
+}
+.invalid {
+  color: var(--ocean) !important;
+  font-family: Poppins !important;
+  font-weight: 400 !important;
+  font-size: 30px !important;
+}
+.info {
+  color: var(--ocean) !important;
+  font-family: Poppins !important;
+  font-weight: 300 !important;
+  font-size: 20px !important;
+}
+.d-flex input::placeholder {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  color: var(--blue) !important;
+  text-transform: capitalize !important;
+  width: fit-content !important;
+}
+.d-flex input {
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  color: var(--ocean) !important;
+  text-transform: uppercase !important;
+}
+.stat {
+  color: var(--ocean) !important;
+  font-family: Poppins !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+}
+.city {
+  color: var(--light) !important;
+  font-family: Poppins !important;
+  font-weight: 600 !important;
+  font-size: 40px !important;
+}
+.h {
+  display: block !important;
+}
